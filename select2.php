@@ -91,7 +91,7 @@ $src = fopen('yii_test1.csv', 'r'); // 'r' указывает функции о�
 while ( !feof($src) ) {
 // echo '<table>'; 
 $line = fgets($src);
-list($items['ID'],$items['title'],$items['color'],$items['vendor_code'],$items['brand'],$items['seria'],$items['size'],$items['quantity'],$items['create_at'])=split (";", $line,9);
+//list($items['ID'],$items['title'],$items['color'],$items['vendor_code'],$items['brand'],$items['seria'],$items['size'],$items['quantity'],$items['create_at'])=split (";", $line,9);
  
  // 'ID'=> , 'title'=> , 'color'=> , 'vendor_code'=> , 'brand'=> , 'seria'=> , 'size'=> , 'number'=> , 'quantity'=> , 'create_at'=> ,'=> ,
  //echo $count = count($items);
